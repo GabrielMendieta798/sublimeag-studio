@@ -1,0 +1,105 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+credentials.json
+credentials.*.json
+secrets.json
+secrets.*.json
+
+# Local provider and Codex state
+.aws/
+.codex/
+
+# Project-local Codex state: keep only this public skill if installed here
+.agents/*
+!.agents/skills/
+.agents/skills/*
+!.agents/skills/sublimeag-studio/
+!.agents/skills/sublimeag-studio/**
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Private product inputs and customer artwork
+**/assets/inputs/products/*
+!**/assets/inputs/products/.gitkeep
+**/assets/inputs/designs/*
+!**/assets/inputs/designs/.gitkeep
+**/assets/references/style/*
+!**/assets/references/style/.gitkeep
+
+# Local brand assets and integrity manifest
+**/assets/brand/*
+!**/assets/brand/manifest.example.json
+!**/assets/brand/.gitkeep
+
+# Binary mockup templates; JSON layout/style definitions remain public
+**/assets/templates/*.png
+**/assets/templates/*.jpg
+**/assets/templates/*.jpeg
+**/assets/templates/*.psd
+**/assets/templates/*.tif
+**/assets/templates/*.tiff
+
+# Generated images, metadata, validation reports, and copy
+**/output/generated/*
+!**/output/generated/.gitkeep
+**/output/composed/*
+!**/output/composed/.gitkeep
+**/output/copy/*
+!**/output/copy/.gitkeep
+
+# AI models and large local artifacts
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.gguf
+models/
+ComfyUI/output/
+ComfyUI/input/
+ComfyUI/temp/
+
+# Logs, temporary files, and editor/OS metadata
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+tmp/
+temp/

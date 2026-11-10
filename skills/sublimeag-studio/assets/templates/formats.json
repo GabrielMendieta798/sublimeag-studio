@@ -1,0 +1,17 @@
+{
+  "feed_vertical": {
+    "width": 1080,
+    "height": 1350,
+    "safe": {"top": 72, "right": 72, "bottom": 72, "left": 72}
+  },
+  "story": {
+    "width": 1080,
+    "height": 1920,
+    "safe": {"top": 180, "right": 72, "bottom": 240, "left": 72}
+  },
+  "catalog_square": {
+    "width": 1080,
+    "height": 1080,
+    "safe": {"top": 64, "right": 64, "bottom": 64, "left": 64}
+  }
+}

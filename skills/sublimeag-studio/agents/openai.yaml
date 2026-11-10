@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sublime AG Studio"
+  short_description: "Estudio IA para fotografía comercial premium"
+  default_prompt: "Usá $sublimeag-studio para crear una imagen comercial premium de este producto."

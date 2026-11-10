@@ -1,0 +1,13 @@
+{
+  "name": "premium-default",
+  "background": "#F3E8D8",
+  "text": "#FFF9F1",
+  "accent": "#D9C5AA",
+  "panel": "#3C3028",
+  "panel_opacity": 190,
+  "logo_max_width_ratio": 0.24,
+  "logo_max_height_ratio": 0.10,
+  "title_size_ratio": 0.052,
+  "subtitle_size_ratio": 0.028,
+  "price_size_ratio": 0.050
+}
